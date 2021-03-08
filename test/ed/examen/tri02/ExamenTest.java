@@ -41,9 +41,10 @@ public class ExamenTest {
      * Test of elMayorDe method, of class Examen.
      */
     @Test
-    public void testElMayorDe() {
+    public void testArrayMenorMaximo() {
         System.out.println("elMayorDe");
         int[] listaEnteros;
+        listaEnteros=new int[2];
         int expResult = 0;
         int result = Examen.elMayorDe(listaEnteros);
         assertEquals(expResult, result);
